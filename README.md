@@ -1,6 +1,6 @@
 # bubble-cosh
 
-This repository contains the code used for Matt's bubble calculations, as featured in [video coming soon].
+This repository contains the code used for Matt's bubble calculations, as featured in "The bubble that breaks maths.". https://www.youtube.com/watch?v=31Om4VrSzb8
 
 `bubble-cosh.py` is the original source code from the video. Code in the `community` folder has been provided by other contributors!
 
