@@ -28,13 +28,13 @@ def error_get(a: float, b: float, d: float, l: float) -> float:
 
 
 def a_b_finder(
-    d: float,
-    l: float,
-    prec: float = 1e-7,
-    starting_step: float = 0.1,
-    start_a: float = 1.0,
-    start_b: float = 1.0,
-) -> tuple[float, float]:
+               d: float,
+               l: float,
+               prec: float = 1e-7,
+               starting_step: float = 0.1,
+               start_a: float = 1.0,
+               start_b: float = 1.0,
+               ) -> tuple[float, float]:
     """Finds a and b. All arguments in centimetres."""
     d = float(d)
     l = float(l)
