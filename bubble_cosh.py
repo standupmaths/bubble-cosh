@@ -2,13 +2,13 @@
 # SPDX-License-Identifier: MIT
 # Copyright (C) 2020-2021 standupmaths and the bubble-cosh contributors
 
-# The type hints use syntax from Python 3.9+. See also PEP 585 -N
+# The type hints use syntax from Python 3.9+. See also PEP 585
 from __future__ import annotations
 
 from math import pi, cosh, sinh
 import argparse
 
-inf = float("inf")  # IEEE 754 is cool. -N
+inf = float("inf")  # IEEE 754 is cool.
 
 
 def error_get(a: float, b: float, d: float, l: float) -> float:
@@ -84,7 +84,8 @@ def total_area(a, b, d, l):
 
 def main():
     # This is messy since it's internal behavior. argparse really should have
-    # a union operator of some sort. -N
+    # a union operator of some sort. I'm doing this to add a column limit
+    # for ancient terminals.
     custom_format = lambda prog: argparse.ArgumentDefaultsHelpFormatter(prog, width=72)
 
     parser = argparse.ArgumentParser(

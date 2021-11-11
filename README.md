@@ -5,12 +5,12 @@
 
 This repository contains the code used for Matt's bubble calculations, as featured in ["The bubble that breaks maths."](https://www.youtube.com/watch?v=31Om4VrSzb8)
 
-`bubble-cosh.py` is the original source code from the video. Code in the `community` folder has been provided by other contributors!
+`bubble_cosh.py` is the original source code from the video. Code in the `community` folder has been provided by other contributors!
 
 ## Usage
 
-Run `bubble-cosh.py`. The values of `d` and `l` are passed in as command-line
-arguments. (`bubble-cosh.py --help` will give a help menu.)
+Run `bubble_cosh.py`. The values of `d` and `l` are passed in as command-line
+arguments. (`bubble_cosh.py --help` will give a help menu.)
 
 Run `pytest` to test the example in Matt's video (rounded to 5 decimal places).
 
