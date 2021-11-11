@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: MIT
+# Copyright (C) 2017 Version Control System Fund
+# Copyright (C) 2021 nfitzen
+
+# Adapted from https://www.toptal.com/developers/gitignore/api/linux,macos,python
+
+### GNU/Linux ###
+
+# GNU/Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+
+.DS_Store
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+
+# Environments
+.env/
+.venv/
+env/
+venv/
